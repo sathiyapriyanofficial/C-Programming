@@ -20,8 +20,11 @@ int main()
 void static_func()
 {
   static int count = 4;
+  static int y = 0;
+  y = y + 1;
   count = count + 1;
   printf("The static value of count is: %d\n", count);
+  printf("How many times this function calls in a progarm \n%d", y);
 }
 
 // Function with non-static variable
