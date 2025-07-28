@@ -2,11 +2,13 @@
 
 int main()
 {
-  int x = 10;
-  while (x < 15)
+  int i = 1; // Start from 1
+
+  while (i < 10) // Run until 10
   {
-    printf("Testing\n");
-    x++;
+    printf("Count: %d\n", i);
+    i++; // Increment to avoid infinite loop
   }
+
   return 0;
 }
