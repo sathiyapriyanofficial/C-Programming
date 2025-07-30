@@ -2,5 +2,11 @@
   "git.enabled": true,
   "[plaintext]": {
     "editor.lineNumbers": "off"
+  },
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "*.ejs": "html",
+    "bitset": "c",
+    "unordered_map": "c"
   }
 }
